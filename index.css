@@ -1,0 +1,46 @@
+.liste{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:grey;
+    height: 30px;
+}
+
+
+.liste a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+
+}
+
+
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:50%;
+    }
+   td { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:red;
+    width:50%;
+    }
+
+.section{
+    display: flex;
+    }
+
+.picture{
+    flex-direction: row;
+   /* justify-content: center;*/
+}  
+
+
+
